@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Options for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 data-key="header">Simple Banking for Everyone</h1>
+            <p data-key="intro">Easy options designed to support your financial growth.</p>
+            <select onchange="changeLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+            </select>
+        </header>
+
+        <section class="section">
+            <h2 data-key="keyFeatures">Key Features</h2>
+            <div class="features">
+                <div class="feature" data-key="feature1">Savings Accounts</div>
+                <div class="feature" data-key="feature2">Loans</div>
+                <div class="feature" data-key="feature3">Microfinance</div>
+                <div class="feature" data-key="feature4">Investments</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 data-key="comparePlans">Compare Plans</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th data-key="plan">Plan</th>
+                        <th data-key="fees">Fees</th>
+                        <th data-key="interestRates">Interest Rates</th>
+                        <th data-key="perks">Perks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic</td>
+                        <td>Low</td>
+                        <td>3%</td>
+                        <td>Cashback</td>
+                    </tr>
+                    <tr>
+                        <td>Standard</td>
+                        <td>Moderate</td>
+                        <td>5%</td>
+                        <td>Rewards</td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>High</td>
+                        <td>7%</td>
+                        <td>Exclusive Perks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2 data-key="customerTestimonials">What Our Customers Say</h2>
+            <div class="testimonial">"I can save money for my family easily!"</div>
+            <div class="testimonial">"Simple and helpful services, perfect for me."</div>
+        </section>
+
+        <section class="section">
+            <h2 data-key="aiTool">AI-Powered Budgeting Tool</h2>
+            <p data-key="aiDescription">Smart financial management made easy. Let AI analyze your expenses and create a personalized budget for you.</p>
+            <div class="cta">
+                <button data-key="tryTool">Try Budgeting Tool</button>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <button data-key="learnMore">Learn More</button>
+            <button data-key="openAccount">Open an Account</button>
+            <button data-key="speakToUs">Speak to Us</button>
+        </section>
+
+        <footer>
+            <p data-key="needHelp">Need help? Visit our <a href="#">FAQ</a> or <a href="#">Contact Us</a>.</p>
+        </footer>
+    </div>
+ <script src="script.js" defer></script>
+</body>
+</html>
